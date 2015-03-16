@@ -1,0 +1,26 @@
+{
+  "name": "docker-node-proxy",
+  "version": "1.0.0",
+  "description": "node reverse proxy on docker",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konieshadow/docker-node-proxy.git"
+  },
+  "keywords": [
+    "reverse",
+    "proxy"
+  ],
+  "author": "Konie Shadow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konieshadow/docker-node-proxy/issues"
+  },
+  "homepage": "https://github.com/konieshadow/docker-node-proxy",
+  "dependencies": {
+    "http-proxy": "^1.9.0"
+  }
+}
