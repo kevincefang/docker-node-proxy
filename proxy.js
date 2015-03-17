@@ -21,11 +21,11 @@ var server = require('http').createServer(function(req, res) {
   switch(host){
     case 'comellia.com':
     case 'www.comellia.com':
-        proxy.web(req, res, { target: 'cm:2368' });
+        proxy.web(req, res, { target: 'http://cm:2368' });
     break;
     case 'fhaoer.com':
     case 'www.fhaoer.com':
-        proxy.web(req, res, { target: 'cm:2369' });
+        proxy.web(req, res, { target: 'http://cm:2369' });
     break;
     default:
         res.writeHead(200, {
